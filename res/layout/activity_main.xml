@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.marcellelek.sudoku.MainActivity" >
+
+	<com.marcellelek.sudoku.view.sudokugrid.SudokuGridView 
+	    android:id="@+id/sudokuGridView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:numColumns="9"
+	    android:horizontalSpacing="0dp"
+	    android:verticalSpacing="0dp"/>
+	    
+	<com.marcellelek.sudoku.view.buttonsgrid.ButtonsGridView 
+	    android:id="@+id/buttonsgridview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/sudokuGridView"
+	    android:numColumns="6"></com.marcellelek.sudoku.view.buttonsgrid.ButtonsGridView>
+
+</RelativeLayout>

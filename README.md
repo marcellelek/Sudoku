@@ -8,4 +8,4 @@ You need two libraries to work:
   - android-support-v7-appcompat
   - android-support-v7-gridlayout
   
-If you like my work you can send any donation to my paypal account: marcellkristof.elek@gmail.com
+If you like my work buy me a beer at paypal account: marcellkristof.elek@gmail.com
